@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<false/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>Preview</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryPhotos</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>BorderWidth</key>
+		<integer>2</integer>
+		<key>BottomLeft</key>
+		<true/>
+		<key>BottomRight</key>
+		<true/>
+		<key>CornerRadius</key>
+		<integer>4</integer>
+		<key>TopLeft</key>
+		<true/>
+		<key>TopRight</key>
+		<true/>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDAlert</key>
+		<string>Running this action will modify the original images.</string>
+		<key>AMDInput</key>
+		<string>Image files</string>
+		<key>AMDResult</key>
+		<string>Image files</string>
+		<key>AMDSummary</key>
+		<string>Rounds the corners of the passed images with a given corner radius, border width, and border color.</string>
+		<key>AMDWebsite</key>
+		<string>http://mattrajca.com</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>Preview</string>
+	<key>AMKeywords</key>
+	<array>
+		<string>border</string>
+		<string>corners</string>
+		<string>images</string>
+		<string>photos</string>
+		<string>round</string>
+		<string>rounded</string>
+	</array>
+	<key>AMName</key>
+	<string>Round Images</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array/>
+	<key>AMWarning</key>
+	<dict>
+		<key>Action</key>
+		<string>com.apple.Automator.CopyFiles</string>
+		<key>ApplyButton</key>
+		<string>Add</string>
+		<key>IgnoreButton</key>
+		<string>Don&apos;t Add</string>
+		<key>Level</key>
+		<integer>2</integer>
+		<key>Message</key>
+		<string>This action will change the image files passed into it. Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MattRajca.Automator.RoundImages</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2012 Matt Rajca. All Rights Reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>RoundImages</string>
+</dict>
+</plist>

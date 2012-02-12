@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9139C5814CCA883000DE0A1 /* ImageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = C9139C5514CCA883000DE0A1 /* ImageProcessor.m */; };
+		C9139C5914CCA883000DE0A1 /* RoundImages.m in Sources */ = {isa = PBXBuildFile; fileRef = C9139C5714CCA883000DE0A1 /* RoundImages.m */; };
+		C9139C5D14CCA88B000DE0A1 /* NSObject+Observing.m in Sources */ = {isa = PBXBuildFile; fileRef = C9139C5C14CCA88B000DE0A1 /* NSObject+Observing.m */; };
+		C9139C6114CCA890000DE0A1 /* NSBezierPath+StrokeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9139C6014CCA890000DE0A1 /* NSBezierPath+StrokeExtensions.m */; };
+		C9139C6714CCA893000DE0A1 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9139C6314CCA893000DE0A1 /* main.xib */; };
+		C9139C6814CCA893000DE0A1 /* Food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9139C6514CCA893000DE0A1 /* Food.jpg */; };
+		C9B2B74014C4CF9D000CA487 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B2B73F14C4CF9D000CA487 /* Automator.framework */; };
+		C9B2B74214C4CF9D000CA487 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B2B74114C4CF9D000CA487 /* Cocoa.framework */; };
+		C9B2B75A14C4D1AB000CA487 /* Round Images.action in Install Action */ = {isa = PBXBuildFile; fileRef = C9B2B73C14C4CF9D000CA487 /* Round Images.action */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9B2B75914C4D18E000CA487 /* Install Action */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = $HOME/Library/Automator;
+			dstSubfolderSpec = 0;
+			files = (
+				C9B2B75A14C4D1AB000CA487 /* Round Images.action in Install Action */,
+			);
+			name = "Install Action";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9139C5414CCA883000DE0A1 /* ImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessor.h; sourceTree = "<group>"; };
+		C9139C5514CCA883000DE0A1 /* ImageProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProcessor.m; sourceTree = "<group>"; };
+		C9139C5614CCA883000DE0A1 /* RoundImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundImages.h; sourceTree = "<group>"; };
+		C9139C5714CCA883000DE0A1 /* RoundImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundImages.m; sourceTree = "<group>"; };
+		C9139C5B14CCA88B000DE0A1 /* NSObject+Observing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Observing.h"; sourceTree = "<group>"; };
+		C9139C5C14CCA88B000DE0A1 /* NSObject+Observing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Observing.m"; sourceTree = "<group>"; };
+		C9139C5F14CCA890000DE0A1 /* NSBezierPath+StrokeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+StrokeExtensions.h"; sourceTree = "<group>"; };
+		C9139C6014CCA890000DE0A1 /* NSBezierPath+StrokeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+StrokeExtensions.m"; sourceTree = "<group>"; };
+		C9139C6414CCA893000DE0A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
+		C9139C6514CCA893000DE0A1 /* Food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Food.jpg; sourceTree = "<group>"; };
+		C9139C6614CCA893000DE0A1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9139C6B14CCA89A000DE0A1 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		C9B2B73C14C4CF9D000CA487 /* Round Images.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Round Images.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B2B73F14C4CF9D000CA487 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		C9B2B74114C4CF9D000CA487 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C9B2B74414C4CF9D000CA487 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C9B2B74514C4CF9D000CA487 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C9B2B74614C4CF9D000CA487 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9B2B73814C4CF9D000CA487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B2B74014C4CF9D000CA487 /* Automator.framework in Frameworks */,
+				C9B2B74214C4CF9D000CA487 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9139C5314CCA883000DE0A1 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				C9139C5414CCA883000DE0A1 /* ImageProcessor.h */,
+				C9139C5514CCA883000DE0A1 /* ImageProcessor.m */,
+				C9139C5614CCA883000DE0A1 /* RoundImages.h */,
+				C9139C5714CCA883000DE0A1 /* RoundImages.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		C9139C5A14CCA88B000DE0A1 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				C9139C5B14CCA88B000DE0A1 /* NSObject+Observing.h */,
+				C9139C5C14CCA88B000DE0A1 /* NSObject+Observing.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		C9139C5E14CCA890000DE0A1 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				C9139C5F14CCA890000DE0A1 /* NSBezierPath+StrokeExtensions.h */,
+				C9139C6014CCA890000DE0A1 /* NSBezierPath+StrokeExtensions.m */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		C9139C6214CCA893000DE0A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9139C6314CCA893000DE0A1 /* main.xib */,
+				C9139C6514CCA893000DE0A1 /* Food.jpg */,
+				C9139C6614CCA893000DE0A1 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C9139C6A14CCA89A000DE0A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9139C6B14CCA89A000DE0A1 /* Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9B2B73014C4CF9D000CA487 = {
+			isa = PBXGroup;
+			children = (
+				C9139C5314CCA883000DE0A1 /* Action */,
+				C9139C5A14CCA88B000DE0A1 /* Additions */,
+				C9139C5E14CCA890000DE0A1 /* External */,
+				C9139C6A14CCA89A000DE0A1 /* Supporting Files */,
+				C9139C6214CCA893000DE0A1 /* Resources */,
+				C9B2B73E14C4CF9D000CA487 /* Frameworks */,
+				C9B2B73D14C4CF9D000CA487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9B2B73D14C4CF9D000CA487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B2B73C14C4CF9D000CA487 /* Round Images.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9B2B73E14C4CF9D000CA487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9B2B73F14C4CF9D000CA487 /* Automator.framework */,
+				C9B2B74114C4CF9D000CA487 /* Cocoa.framework */,
+				C9B2B74314C4CF9D000CA487 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9B2B74314C4CF9D000CA487 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9B2B74414C4CF9D000CA487 /* AppKit.framework */,
+				C9B2B74514C4CF9D000CA487 /* CoreData.framework */,
+				C9B2B74614C4CF9D000CA487 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9B2B73B14C4CF9D000CA487 /* Round Images */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B2B75614C4CF9E000CA487 /* Build configuration list for PBXNativeTarget "Round Images" */;
+			buildPhases = (
+				C9B2B73714C4CF9D000CA487 /* Sources */,
+				C9B2B73814C4CF9D000CA487 /* Frameworks */,
+				C9B2B73914C4CF9D000CA487 /* Resources */,
+				C9B2B73A14C4CF9D000CA487 /* ShellScript */,
+				C9B2B75914C4D18E000CA487 /* Install Action */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Round Images";
+			productName = RoundImages;
+			productReference = C9B2B73C14C4CF9D000CA487 /* Round Images.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9B2B73214C4CF9D000CA487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Matt Rajca";
+			};
+			buildConfigurationList = C9B2B73514C4CF9D000CA487 /* Build configuration list for PBXProject "Round Images" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9B2B73014C4CF9D000CA487;
+			productRefGroup = C9B2B73D14C4CF9D000CA487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9B2B73B14C4CF9D000CA487 /* Round Images */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9B2B73914C4CF9D000CA487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9139C6714CCA893000DE0A1 /* main.xib in Resources */,
+				C9139C6814CCA893000DE0A1 /* Food.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9B2B73A14C4CF9D000CA487 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9B2B73714C4CF9D000CA487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9139C5814CCA883000DE0A1 /* ImageProcessor.m in Sources */,
+				C9139C6114CCA890000DE0A1 /* NSBezierPath+StrokeExtensions.m in Sources */,
+				C9139C5D14CCA88B000DE0A1 /* NSObject+Observing.m in Sources */,
+				C9139C5914CCA883000DE0A1 /* RoundImages.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9139C6314CCA893000DE0A1 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9139C6414CCA893000DE0A1 /* en */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9B2B75414C4CF9E000CA487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9B2B75514C4CF9E000CA487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9B2B75714C4CF9E000CA487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "Round Images";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		C9B2B75814C4CF9E000CA487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "Round Images";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9B2B73514C4CF9D000CA487 /* Build configuration list for PBXProject "Round Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B2B75414C4CF9E000CA487 /* Debug */,
+				C9B2B75514C4CF9E000CA487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B2B75614C4CF9E000CA487 /* Build configuration list for PBXNativeTarget "Round Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B2B75714C4CF9E000CA487 /* Debug */,
+				C9B2B75814C4CF9E000CA487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9B2B73214C4CF9D000CA487 /* Project object */;
+}
