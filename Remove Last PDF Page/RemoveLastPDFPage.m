@@ -13,13 +13,26 @@
 
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo {
 	for (NSString *path in input) {
+		if (![[path pathExtension] isEqualToString:@"pdf"]) {
+			[self logMessageWithLevel:AMLogLevelWarn format:@"Skipping '%@' since it is not a PDF", path];
+			continue;
+		}
+		
 		NSURL *url = [NSURL fileURLWithPath:path];
+		
+		if (!url) {
+			[self logMessageWithLevel:AMLogLevelError format:@"The path '%@' is invalid", path];
+			continue;
+		}
 		
 		PDFDocument *doc = [[PDFDocument alloc] initWithURL:url];
 		
 		if ([doc pageCount] > 0) {
 			[doc removePageAtIndex:[doc pageCount] - 1];
-			[doc writeToURL:url];
+			
+			if (![doc writeToURL:url]) {
+				[self logMessageWithLevel:AMLogLevelError format:@"Could not save the modified PDF"];
+			}
 		}
 		
 		[doc release];
