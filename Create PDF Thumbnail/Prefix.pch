@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Create PDF Thumbnail' target in the 'Create PDF Thumbnail' project.
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

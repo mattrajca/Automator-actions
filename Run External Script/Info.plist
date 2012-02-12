@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<true/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.string</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>Terminal</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryUtilities</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>shell</key>
+		<string>/bin/bash</string>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDInput</key>
+		<string>Arguments</string>
+		<key>AMDNote</key>
+		<string>If the linked script is moved, the action will try to keep track of it.</string>
+		<key>AMDRelatedActions</key>
+		<string>com.apple.RunShellScript</string>
+		<key>AMDResult</key>
+		<string>Standard output</string>
+		<key>AMDSummary</key>
+		<string>An alternative to the built-in &apos;Run Shell Script&apos; action. This action executes a given on-disk script.</string>
+		<key>AMDWebsite</key>
+		<string>http://mattrajca.com</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>Terminal</string>
+	<key>AMKeywords</key>
+	<array>
+		<string>execute</string>
+		<string>perl</string>
+		<string>python</string>
+		<string>ruby</string>
+		<string>script</string>
+		<string>shell</string>
+		<string>terminal</string>
+		<string>unix</string>
+	</array>
+	<key>AMName</key>
+	<string>Run External Script</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.string</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array/>
+	<key>AMWarning</key>
+	<dict>
+		<key>Level</key>
+		<integer>2</integer>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MattRajca.Automator.RunExternalScript</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.3</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.3</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2011-2012 Matt Rajca. All Rights Reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>RunExternalScript</string>
+</dict>
+</plist>

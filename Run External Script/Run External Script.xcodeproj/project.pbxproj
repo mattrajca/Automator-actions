@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C909FA3213D27B350014A5B5 /* DropView.m in Sources */ = {isa = PBXBuildFile; fileRef = C909FA2813D27B350014A5B5 /* DropView.m */; };
+		C909FA3413D27B350014A5B5 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = C909FA2C13D27B350014A5B5 /* main.xib */; };
+		C909FA3613D27B350014A5B5 /* RunExternalScript.m in Sources */ = {isa = PBXBuildFile; fileRef = C909FA3113D27B350014A5B5 /* RunExternalScript.m */; };
+		C90B7EF713CF303200A3909A /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90B7EF613CF303200A3909A /* Automator.framework */; };
+		C90B7EF913CF303200A3909A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90B7EF813CF303200A3909A /* Cocoa.framework */; };
+		C92F0C4A13D369C400E453EF /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92F0C4913D369C400E453EF /* OSAKit.framework */; };
+		C9F9EF1C13CF31570091B902 /* Run External Script.action in Install Action */ = {isa = PBXBuildFile; fileRef = C90B7EF313CF303200A3909A /* Run External Script.action */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9F9EF1B13CF31410091B902 /* Install Action */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = $HOME/Library/Automator;
+			dstSubfolderSpec = 0;
+			files = (
+				C9F9EF1C13CF31570091B902 /* Run External Script.action in Install Action */,
+			);
+			name = "Install Action";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C909FA2713D27B350014A5B5 /* DropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropView.h; sourceTree = "<group>"; };
+		C909FA2813D27B350014A5B5 /* DropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropView.m; sourceTree = "<group>"; };
+		C909FA2D13D27B350014A5B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = main.xib; sourceTree = "<group>"; };
+		C909FA2E13D27B350014A5B5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C909FA3013D27B350014A5B5 /* RunExternalScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunExternalScript.h; sourceTree = "<group>"; };
+		C909FA3113D27B350014A5B5 /* RunExternalScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunExternalScript.m; sourceTree = "<group>"; };
+		C90B7EF313CF303200A3909A /* Run External Script.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Run External Script.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90B7EF613CF303200A3909A /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		C90B7EF813CF303200A3909A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C90B7EFB13CF303200A3909A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C90B7EFD13CF303200A3909A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C92F0C4913D369C400E453EF /* OSAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSAKit.framework; path = System/Library/Frameworks/OSAKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C90B7EEF13CF303200A3909A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90B7EF713CF303200A3909A /* Automator.framework in Frameworks */,
+				C90B7EF913CF303200A3909A /* Cocoa.framework in Frameworks */,
+				C92F0C4A13D369C400E453EF /* OSAKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C909FA3713D27B3D0014A5B5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C909FA2713D27B350014A5B5 /* DropView.h */,
+				C909FA2813D27B350014A5B5 /* DropView.m */,
+				C909FA3013D27B350014A5B5 /* RunExternalScript.h */,
+				C909FA3113D27B350014A5B5 /* RunExternalScript.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		C909FA3813D27B480014A5B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C909FA2E13D27B350014A5B5 /* Info.plist */,
+				C909FA2C13D27B350014A5B5 /* main.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C90B7EE713CF303200A3909A = {
+			isa = PBXGroup;
+			children = (
+				C909FA3713D27B3D0014A5B5 /* Sources */,
+				C909FA3813D27B480014A5B5 /* Resources */,
+				C90B7EF513CF303200A3909A /* Frameworks */,
+				C90B7EF413CF303200A3909A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C90B7EF413CF303200A3909A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C90B7EF313CF303200A3909A /* Run External Script.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C90B7EF513CF303200A3909A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C90B7EF613CF303200A3909A /* Automator.framework */,
+				C90B7EF813CF303200A3909A /* Cocoa.framework */,
+				C92F0C4913D369C400E453EF /* OSAKit.framework */,
+				C90B7EFA13CF303200A3909A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C90B7EFA13CF303200A3909A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C90B7EFB13CF303200A3909A /* AppKit.framework */,
+				C90B7EFD13CF303200A3909A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C90B7EF213CF303200A3909A /* Run External Script */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90B7F0E13CF303200A3909A /* Build configuration list for PBXNativeTarget "Run External Script" */;
+			buildPhases = (
+				C90B7EEE13CF303200A3909A /* Sources */,
+				C90B7EEF13CF303200A3909A /* Frameworks */,
+				C90B7EF013CF303200A3909A /* Resources */,
+				C90B7EF113CF303200A3909A /* ShellScript */,
+				C9F9EF1B13CF31410091B902 /* Install Action */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Run External Script";
+			productName = RunExternalScript;
+			productReference = C90B7EF313CF303200A3909A /* Run External Script.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C90B7EE913CF303200A3909A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Matt Rajca";
+			};
+			buildConfigurationList = C90B7EEC13CF303200A3909A /* Build configuration list for PBXProject "Run External Script" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C90B7EE713CF303200A3909A;
+			productRefGroup = C90B7EF413CF303200A3909A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C90B7EF213CF303200A3909A /* Run External Script */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C90B7EF013CF303200A3909A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C909FA3413D27B350014A5B5 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C90B7EF113CF303200A3909A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C90B7EEE13CF303200A3909A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C909FA3213D27B350014A5B5 /* DropView.m in Sources */,
+				C909FA3613D27B350014A5B5 /* RunExternalScript.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C909FA2C13D27B350014A5B5 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C909FA2D13D27B350014A5B5 /* en */,
+			);
+			name = main.xib;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C90B7F0C13CF303200A3909A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C90B7F0D13CF303200A3909A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C90B7F0F13CF303200A3909A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "Run External Script";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		C90B7F1013CF303200A3909A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "Run External Script";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C90B7EEC13CF303200A3909A /* Build configuration list for PBXProject "Run External Script" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90B7F0C13CF303200A3909A /* Debug */,
+				C90B7F0D13CF303200A3909A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90B7F0E13CF303200A3909A /* Build configuration list for PBXNativeTarget "Run External Script" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90B7F0F13CF303200A3909A /* Debug */,
+				C90B7F1013CF303200A3909A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C90B7EE913CF303200A3909A /* Project object */;
+}

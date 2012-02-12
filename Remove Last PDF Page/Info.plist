@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<false/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>Preview</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryPDFs</string>
+	<key>AMDefaultParameters</key>
+	<dict/>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDAlert</key>
+		<string>Running this action will modify the original PDF documents.</string>
+		<key>AMDInput</key>
+		<string>PDF files</string>
+		<key>AMDResult</key>
+		<string>PDF files</string>
+		<key>AMDSummary</key>
+		<string>Removes the last page from each passed PDF document.</string>
+		<key>AMDWebsite</key>
+		<string>http://mattrajca.com</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>Preview</string>
+	<key>AMKeywords</key>
+	<array>
+		<string>delete</string>
+		<string>pdf</string>
+		<string>remove</string>
+	</array>
+	<key>AMName</key>
+	<string>Remove Last PDF Page</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array/>
+	<key>AMWarning</key>
+	<dict>
+		<key>Action</key>
+		<string>com.apple.Automator.CopyFiles</string>
+		<key>ApplyButton</key>
+		<string>Add</string>
+		<key>IgnoreButton</key>
+		<string>Don&apos;t Add</string>
+		<key>Level</key>
+		<integer>2</integer>
+		<key>Message</key>
+		<string>Running this action will modify the original PDF documents.</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MattRajca.Automator.RemoveLastPDFPage</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.2</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2010-2012 Matt Rajca. All Rights Reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>RemoveLastPDFPage</string>
+</dict>
+</plist>

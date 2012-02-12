@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Remove Last PDF Page' target in the 'Remove Last PDF Page' project.
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
