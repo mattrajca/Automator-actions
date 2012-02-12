@@ -68,7 +68,7 @@
 		<key>Level</key>
 		<integer>2</integer>
 		<key>Message</key>
-		<string>Running this action will modify the original PDF documents.</string>
+		<string>This action will change the PDF documents passed into it. Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?</string>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
