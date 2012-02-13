@@ -114,17 +114,17 @@
 	[self parametersUpdated];
 	
 	for (NSString *path in input) {
-		NSBitmapImageRep *inputRep = [NSBitmapImageRep imageRepWithContentsOfFile:path];
-		
-		if (!inputRep) {
-			NSLog(@"Could not create a bitmap image rep");
-			continue;
-		}
-		
 		NSBitmapImageFileType fileType = [self fileTypeForPathExtension:[path pathExtension]];
 		
 		if (fileType == NSNotFound) {
-			NSLog(@"Invalid image file extension (%@)", [path pathExtension]);
+			[self logMessageWithLevel:AMLogLevelWarn format:@"Invalid image file extension (%@). Skipping...", [path pathExtension]];
+			continue;
+		}
+		
+		NSBitmapImageRep *inputRep = [NSBitmapImageRep imageRepWithContentsOfFile:path];
+		
+		if (!inputRep) {
+			[self logMessageWithLevel:AMLogLevelError format:@"Could not load the input image"];
 			continue;
 		}
 		
@@ -134,7 +134,7 @@
 		NSData *data = [outputRep representationUsingType:fileType properties:nil];
 		
 		if (![data writeToFile:path options:NSDataWritingAtomic error:&error]) {
-			NSLog(@"Could not write output file. Error: %@", error);
+			[self logMessageWithLevel:AMLogLevelError format:@"Could not write the output file. Error: %@", error];
 			continue;
 		}
 	}
