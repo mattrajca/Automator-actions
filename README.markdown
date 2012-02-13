@@ -13,6 +13,11 @@ Remove Last PDF Page
 
 Removes the last page from each passed PDF document.
 
+Round Images
+------------
+
+Rounds the corners of the passed images with a given corner radius, border width, and border color.
+
 Run External Script
 -------------------
 
